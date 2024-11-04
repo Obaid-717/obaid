@@ -1,0 +1,49 @@
+name: quit_smoking
+description: "A new Flutter project to help users quit smoking and vaping."
+publish_to: 'none' # Prevents accidental publishing
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <3.0.0" # Adjust the SDK version as needed
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Core dependencies
+  cupertino_icons: ^1.0.5
+  provider: ^6.1.2
+  shared_preferences: ^2.2.0
+  pdf: ^3.8.0
+  printing: ^5.9.5
+  intl: ^0.18.0
+  google_fonts: ^4.0.3
+  path_provider: ^2.0.11
+  flutter_animate: ^4.0.0 # Added flutter_animate for animations
+  fl_chart: ^0.69.0
+  csv: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+
+flutter:
+  uses-material-design: true
+
+  # Add assets section
+  assets:
+    - images/welcome_illustration.png  # Include your image
+    - images/image4.png  # Include your image
+    - images/image50.png
+    - images/image40.png
+    - images/how_old.png
+    - images/how_much.png
+    - images/how_many.png
+    - images/QSB.jpg
+    - images/QV.png
+
+
+    
+
